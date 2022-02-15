@@ -1,0 +1,16 @@
+trigger: none
+
+jobs:
+- job: Create_Subscriptions
+  displayName: Create Subscriptions in Production
+  pool:
+    vmImage: 'windows-latest'
+# You can either use ClientSecret, ClientId, and TenantId or Service Principal to connect Azure Account 
+  steps:
+    - task: AzureCLI@2
+      displayName: "Create Subscriptions in Production"
+      inputs:
+        azureSubscription: 'Service Principal'
+        scriptType: 'ps'
+        scriptLocation: 'scriptPath'
+        ScriptPath: './subscription-enrollment.ps1'

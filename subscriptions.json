@@ -1,0 +1,112 @@
+[
+  {
+    "name": "mg-corporate",
+    "displayname": "Corporate",
+    "parent": "mg-landingzones",
+    "subscription": [
+      {
+        "name": "app1-corporate-prod-01",
+        "workload": "production"
+      }
+    ]
+  },
+  {
+    "name": "mg-corporate",
+    "displayname": "Corporate",
+    "parent": "mg-landingzones",
+    "subscription": [
+      {
+        "name": "app1-corporate-dev-01",
+        "workload": "production"
+      }
+    ]
+  },
+  {
+    "name": "mg-corporate",
+    "displayname": "Corporate",
+    "parent": "mg-landingzones",
+    "subscription": [
+      {
+        "name": "app2-corporate-prod-01",
+        "workload": "production"
+      }
+    ]
+  },
+  {
+    "name": "mg-corporate",
+    "displayname": "Corporate",
+    "parent": "mg-landingzones",
+    "subscription": [
+      {
+        "name": "app2-corporate-dev-01",
+        "workload": "production"
+      }
+    ]
+  },
+  {
+    "name": "mg-connectivity",
+    "displayname": "Connectivity",
+    "parent": "mg-platform",
+    "subscription": [
+      {
+        "name": "connectivity-01",
+        "workload": "production"
+      }
+    ]
+  },
+  {
+    "name": "mg-Identity",
+    "displayname": "Identity",
+    "parent": "mg-platform",
+    "subscription": [
+      {
+        "name": "identity-01",
+        "workload": "production"
+      }
+    ]
+  },
+  {
+    "name": "mg-management",
+    "displayname": "Management",
+    "parent": "mg-platform",
+    "subscription": [
+      {
+        "name": "management-01",
+        "workload": "production"
+      }
+    ]
+  },
+  {
+    "name": "mg-sandbox",
+    "displayname": "Sandbox",
+    "parent": "mg-org",
+    "subscription": [
+      {
+        "name": "sc-sandbox",
+        "workload": "production"
+      }
+    ]
+  },
+  {
+    "name": "mg-sandbox",
+    "displayname": "Sandbox",
+    "parent": "mg-org",
+    "subscription": [
+      {
+        "name": "app1-sandbox",
+        "workload": "production"
+      }
+    ]
+  },
+  {
+    "name": "mg-sandbox",
+    "displayname": "Sandbox",
+    "parent": "mg-org",
+    "subscription": [
+      {
+        "name": "app2-sandbox",
+        "workload": "production"
+      }
+    ]
+  }
+]
